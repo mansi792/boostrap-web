@@ -1,0 +1,896 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+::selection{
+    background-color: black;
+    color: #fff;
+}
+.body{
+    background-color: #fff;;
+}
+.header{
+    background-image: url(../images/headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 530px;
+}
+.header h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.option{
+    display: flex;
+    gap: 40px;
+}
+.image-1 img{
+    height: 50px;
+    width: 50px;
+    margin: 36px 0px 0px 127px;
+}
+.option-1:hover{
+    background-color: black;
+    color: #fff;
+}
+.option-1:hover #edit-black{
+    display: none;
+}
+.option-1:hover #edit-white{
+    display: inline;
+}
+#edit-white{
+    display: none;
+}
+.image-1:hover .image-1 h4{
+    color: #fff;
+}
+.option-1{
+    width: 300px;
+    height: 150px;
+    background-color:#f8f9fa;
+    border: 1px solid black;
+    border: none;
+    position: relative;
+    top: 300px;
+    left: 60px;
+    /* transform: translate(200px,100px); */
+}
+.image-1 h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.image-2 img{
+    height: 50px;
+    width: 50px;
+    margin: 36px 0px 0px 127px;
+}
+.option-2:hover{
+    background-color: black;
+    color: #fff;
+}
+.option-2:hover #edit-black{
+    display: none;
+}
+.option-2:hover #edit-white{
+    display: inline;
+}
+#edit-white{
+    display: none;
+}
+.image-1:hover .image-1 h4{
+    color: #fff;
+}
+.option-2{
+    width: 300px;
+    height: 150px;
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border: none;
+    position: relative;
+    top: 300px;
+    left: 60px;
+    /* transform: translate(200px,100px); */
+}
+.image-3 img{
+    height: 50px;
+    width: 50px;
+    margin: 36px 0px 0px 127px;
+}
+.option-3:hover{
+    background-color: black;
+    color: #fff;
+}
+.option-3:hover{
+    background-color: black;
+    color: #fff;
+}
+.option-3:hover #edit-black{
+    display: none;
+}
+.option-3:hover #edit-white{
+    display: inline;
+}
+#edit-white{
+    display: none;
+}
+.image-1:hover .image-1 h4{
+    color: #fff;
+}
+.option-3{
+    width: 300px;
+    height: 150px;
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border: none;
+    position: relative;
+    top: 300px;
+    left: 60px;
+    /* transform: translate(200px,100px); */
+}
+.text{
+   margin: 15% 0 0 0;
+   background-color: #fff;
+   background-size: cover;
+   box-shadow: 0px 3px 45px 0px;
+   padding: 80px 0px 60px 0px;
+}
+.ride{
+    display: flex;
+}
+.car{
+    padding: 0px 0px;
+}
+.car img{
+    height: 300px;
+    width: 650px;
+    transform: rotateY(180deg);
+    padding: 35px 0px 0px 0px;
+}
+.safe h2{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 600;
+    text-align: end;
+    width: 90%;
+}
+.safe p{
+    width: 90%;
+    text-align: end;
+    line-height: 2;
+}
+/* class text-2 */
+.ride-2{
+    display: flex;
+    justify-content: space-between;
+}
+.ride-2{
+    padding: 100px;
+}
+.overview h1{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 600;
+}
+.black-car img{
+    height: 350px;
+    width: 530px;
+}
+.button-black{
+    padding: 12px 30px 12px 30px;
+    background: none;
+    border: 2px solid;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.button-black::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+}
+.button-black:hover{
+    color: #fff;
+    border: 2px solid black;
+}
+.button-black:hover::before{
+    transform: scaleX(1);
+}
+
+/* class ranking */
+.ranking{
+    padding: 100px 0px 0px 30px;
+}
+.row {
+    display: flex;
+} 
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+}
+.card-1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+}
+/* card class */
+.card-d{
+    background: url(../images/steeringview.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 300px;
+    height: 350px;
+    padding: 10px 30px 0px 11px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    transition: all 5s;
+}
+.card-1:hover::before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transition: ease 0.5s;
+    transition: all 5s;
+}
+.card-d h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    max-width: 100px;
+    display: none;
+}
+.card-d p {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 300px;
+    display: none;
+}
+.card-d:hover h2{
+    display: block;
+}
+.card-d:hover p{
+    display: block;
+}
+/* button-white */
+.button-white{
+   padding: 12px 80px 12px 80px;
+   background: none;
+   border: 2px solid;
+   letter-spacing: 3px;
+   position: relative;
+   transition: liniar 0.4s;
+   z-index: 1;
+   cursor: pointer;
+}
+.button-white::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:white;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+}
+.button-white:hover {
+    color:black;
+    border: 2px solid black;
+}
+.button-white:hover::before {
+    transform: scaleX(1);
+}
+.card:hover .button-white{
+    display: inline;
+}
+.button-white {
+    color:black;
+    display: none;
+    margin: 15px 0 0 0;
+} 
+/* edit-image1 */
+#edit-image1{
+    background-image: url(../images/cabin.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 350px;
+    padding: 10px 20px 0px 11px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    transition: all 5s;
+}
+#edit-image1:hover::before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transition: ease 0.5s;
+    transition: all 5s;
+}
+#edit-image1 h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    max-width: 100px;
+    display: none;
+}
+#edit-image1 p {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 300px;
+    display: none;
+}
+#edit-image1:hover h2{
+    display: block;
+}
+#edit-image1:hover p{
+    display: block;
+}
+#edit-image1:hover .button-white{
+    display: inline;
+}
+/* edit-image2 class */
+#edit-image2{
+    background-image: url(../images/studiocar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    padding: 10px 20px 0px 11px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    transition: all 5s;
+}
+#edit-image1:hover::before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transition: ease 0.5s;
+    transition: all 5s;
+}
+#edit-image2 h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    max-width: 100px;
+    display: none;
+}
+#edit-image2 p {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 300px;
+    display: none;
+}
+#edit-image2:hover h2{
+    display: block;
+}
+#edit-image2:hover p{
+    display: block;
+}
+#edit-image2:hover .button-white{
+    display: inline;
+}
+/* edit-image3 class */
+#edit-image3{
+    background-image: url(../images/carfrontview.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    padding: 10px 20px 0px 11px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    transition: all 5s;
+}
+#edit-image3:hover::before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transition: ease 0.5s;
+    transition: all 5s;
+}
+#edit-image3 h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    max-width: 100px;
+    display: none;
+}
+#edit-image3 p {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 300px;
+    display: none;
+}
+#edit-image3:hover h2{
+    display: block;
+}
+#edit-image3:hover p{
+    display: block;
+}
+#edit-image3:hover .button-white{
+    display: inline;
+}
+/* class features */
+.features{
+    padding: 150px 0px 0px;
+}
+.all{
+    display: flex;
+}
+.col-sm-4{
+    padding: 0px 12px;
+}
+.assurity{
+    padding: 35px 0px 0px 100px;
+}
+.assurity img{
+    width: 50px;
+    height: 50px;
+}
+.assurity h4{
+    max-width: 220px;
+    padding: 5px 0px 10px 0px;
+}
+.interiar img{
+   width: 90%;
+   padding: 0px 12px;
+}
+#edit-text{
+    text-align: right;
+    width: 60%;
+    padding: 45px 10px 0px 0px;
+}
+
+
+/* class driving */
+.driving{
+    background-image: url(../images/topview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    padding: 150px 0 150px 0;
+    margin: 100px 0 0 0;
+}
+.driving::before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+.driving p{
+    max-width: 580px;
+    line-height: 30px;
+}
+#edit-button2{
+    color: #fff;
+}
+#edit-button2:hover {
+    color: #000;
+    border: 2px solid #fff;
+  }
+.button-white2{
+    padding: 12px 30px 12px 30px;
+    background: none;
+    border: 2px solid white;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.button-white2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #fff;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+}
+.button-white2:hover{
+    color:black;
+    border: 2px solid black;
+}
+.button-white2:hover::before{
+    transform: scaleX(1);
+}
+/* class dealers */
+.dealer{
+    background-color: #000;
+    height: 500px;
+}
+.row-last{
+    display: flex;
+    justify-content: space-between;
+}
+.col-lg-2{
+    padding: 0px 20px 0px 20px;
+}
+/* *****Laptop view***** */
+/* *****Laptop view***** */
+/* *****Laptop view***** */
+@media screen and (max-width:1200px) {
+    #edit-move{
+        margin: 40px 0px 0px 0px;
+    }
+    .option{
+        display: flex;
+        gap: 20px;
+    }
+    .option{
+        margin: -60px 0px 0px 0px;
+        text-align: center;
+    }
+    .option-1{
+        top: 250px;
+        left: 10px;
+    }
+    .image-1 img{
+        height: 50px;
+        width: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+    .option-2{
+        top: 250px;
+        left: 10px;
+    }
+    .image-2 img{
+        height: 50px;
+        width: 50px;
+        margin: 40px 0px 0px 0px;
+    }
+    .option-3{
+        top: 250px;
+        left: 10px;
+    }
+    .image-3 img{
+        height: 50px;
+        width: 50px;
+        margin: 40px 0px 0px 0px;
+    }
+    .text{
+        margin: 25% 0 0 0;
+        background-color: #fff;
+        box-shadow: 0px 3px 45px 0px;
+        padding: 80px 0px 60px 50px;
+    }
+    .ride{
+         display: flex;
+    }
+    .car img{
+        height: 250px;
+        width: 500px;
+        padding: 35px 0px 0px 40px;
+    }
+    .safe h2{
+        text-align: end;
+        width: 90%;
+    }
+    .safe p{
+        width: 95%;
+        text-align: left;
+    }
+    /* class text-2 */
+    .ride-2{
+        padding: 109px 0px 29px 30px;
+    }
+    .overview p{
+       width: 90%;
+    }
+    .black-car img{
+        height: 300px;
+        width: 450px;
+    }
+}
+/* *****Tablate view***** */
+/* *****Tablate view***** */
+/* *****Tablate view***** */
+@media  screen and (max-width:991px){
+    .header{
+        background-image: url(../images/headerimage.jpg);
+        width: 100%;
+        height: 381px;
+    }   
+    .header h3{
+        font-size: 40px;
+        /* padding-left: 10px; */
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700px;
+    }
+    .option{
+        margin: -60px 0px 0px 0px;
+        text-align: center;
+    }
+    .option-1{
+        top: 250px;
+        left: 10px;
+    }
+    .image-1 img{
+        height: 50px;
+        width: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+    text{
+        margin: 40% 0 0 0;
+    }
+    .ride{
+       display: flex;
+       flex-direction: column;
+    }
+    .ride{
+        margin-top: 70%;
+    }
+    .car img{
+        height: 200px;
+        width: 700px;
+    }
+    .safe h2{
+        font-size: 40px;
+        text-align: left;
+        width: 85%;
+    }
+    .safe p{
+        text-align: left;
+        width: 95%;
+    }
+    /* class text-2 */
+    .ride-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .overview h1{
+        font-size: 40px;
+    }
+    .overview p{
+       width: 90%;
+    }
+    .black-car{
+        padding-top: 20px;
+        align-items: center;
+    }
+    .black-car img{
+        height: 200px;
+        width: 650px;
+    }
+    /* class ranking */
+    .ranking{
+        padding: 50px 0px 0px 0px;
+    }
+   .row {
+        display: flex;
+        flex-direction: column;
+    } 
+    .col-xl-3 {
+        padding-bottom: 15px;
+    }
+    .card-d{
+        width: 700px;
+        height: 350px;
+        background-attachment: fixed;
+    }
+    /* #edit-image1 */
+    #edit-image1 {
+        width: 700px;
+        height: 350px;
+    }
+    /* #edit-image2 */
+    #edit-image2 {
+        width: 700px;
+        height: 350px;
+    }
+    /* #edit-image3 */
+    #edit-image3 {
+        width: 700px;
+        height: 350px;
+    }
+    /* features class */
+    .features{
+        padding: 150px 0px 0px;
+    }
+    .all{
+        display: flex;
+    }
+    .col-sm-4{
+        padding: 0px 12px;
+    }
+    .assurity{
+        padding: 0px 0px 20px 30px;
+    }
+    #edit-text{
+        text-align: right;
+        width: 80%;
+        padding: 20px 0px 0px 0px;
+    }
+    .driving {
+        padding: 56px 0 80px 0;
+        margin: 52px 0 0 0;
+    }
+    /* dealer class */
+    .row-last{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .col-lg-2{
+        padding: 0px 20px 0px 20px;
+    }
+    .dealer{
+        background-color: #000;
+        height: 95%;
+    }
+}
+/* *****Mobile view***** */
+/* *****Mobile view***** */
+/* *****Mobile view***** */
+@media screen and (max-width: 767px){
+    #edit-move {
+        margin: 0px 0 0 0px;
+    } 
+    .header{
+        background-image: url(../images/headerimage.jpg);
+        width: 100%;
+        height: 200px;
+    }
+    .header h3{
+        font-size: 22px;
+        width: 250px;
+        text-align: center;
+    }
+    .option{
+        display: flex;
+        flex-direction: column;
+    } 
+    .option-1{
+        left: 0px;
+    }
+    .option-2{
+        left: 0px;
+    }
+    .option-3{
+        left: 0px;
+    }
+    .text{
+        margin: 90% 0 0 0 ;
+        padding: 80px 0px 60px 0px;
+    }
+    .car img{
+        height: 250px;
+        width: 300px;
+        padding-top: 150px;
+    }
+    .safe h2{
+        font-size: 12px;
+        width: 300px;
+        text-align: left;
+    }
+    .ride-2{
+        padding-left: 10px;
+    }
+    .black-car img{
+        height: 200px;
+        width: 300px;
+        
+    }
+    .card-d{
+        width: 300px;
+        height: 350px;
+    }
+    /* #edit-image1 */
+    #edit-image1 {
+        width: 300px;
+        height: 350px;
+    }
+    /* #edit-image2 */
+    #edit-image2 {
+        width: 300px;
+        height: 350px;
+    }
+    /* #edit-image3 */
+    #edit-image3 {
+        width: 300px;
+        height: 350px;
+    }
+    /* feature class */
+    .all{
+        display: flex;
+        flex-direction:column
+    }
+    #edit-text{
+        text-align: left;
+        width: 0%;
+        padding: 45px 10px 0px 0px;
+    }
+}
